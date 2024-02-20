@@ -46,4 +46,4 @@
 
     f(n) = O(n) means that the function f would as n increases, f(n) increases linearly. f(n) = O(1) implies that f(n) is below. f(n) = O(log n) means that f grows logarithmically for large n.
 
-    The ideal proof size would be O(1) which means that even for a large number of inputs, the proof size would also be below some threshold would never grow indefinitely.
+    The ideal proof size would be O(1) which means that even for a large number of inputs, the proof size would also be below some threshold and would never grow indefinitely.
