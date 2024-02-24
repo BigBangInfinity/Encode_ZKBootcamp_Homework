@@ -4,14 +4,18 @@
 // Step 2: Get the bar_for_fuzz and default_to_baz tests passing!
 // Execute the command `zustlings hint if2` if you want a hint :)
 
-pub fn fizz_if_foo(fizzish: &str) -> &str {
+pub fn foo_if_fizz(fizzish: &str) -> &str {
     if fizzish == "fizz" {
         "foo"
     } 
+    else if fizzish == "fuzz"{
+        "bar"
+    }
     else {
-        "1"
+        "baz"
     }
 }
+
 
 // No test changes needed!
 #[cfg(test)]
