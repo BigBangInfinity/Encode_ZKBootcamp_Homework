@@ -28,3 +28,12 @@ Circom code, input = 2
 Circom code, input = 0
 
 ![image](https://github.com/BigBangInfinity/Encode_ZKBootcamp_Homework/assets/37957341/5aecc6f4-eb8f-49fb-87bb-9c435c5d3e9c)
+
+2. Using this code in the [zkREPL](https://zkrepl.dev/), complete both constraints and add some appropriate inputs in the input section. Test that it creates a proof, and show that an incorrect proof fails.
+
+   ![image](https://github.com/BigBangInfinity/Encode_ZKBootcamp_Homework/assets/37957341/762a5e2e-1c55-4eae-99b7-17c40ef3bafd)
+
+Test wrong assertion:
+
+![image](https://github.com/BigBangInfinity/Encode_ZKBootcamp_Homework/assets/37957341/bbec3020-fa17-4153-a1f0-48e5777253a2)
+
