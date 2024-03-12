@@ -37,3 +37,39 @@ Test wrong assertion:
 
 ![image](https://github.com/BigBangInfinity/Encode_ZKBootcamp_Homework/assets/37957341/bbec3020-fa17-4153-a1f0-48e5777253a2)
 
+## Stark Theory
+
+1. Imagine you get the following trace
+   
+0,2,4,6,8,10,12
+
+from your program (which simply adds 2 to the previous value.)
+
+Write out the constraints for this trace, in terms of i, j
+
+$A_{0,1} = 0$
+
+$\forall1\leq i\leq 5: A_{i, 1} - A_{i-1, 1} - 2 = 0$
+
+$A_{6,1} = 12$
+
+
+2 . Polynomial practice
+
+for
+
+$p(x) = x^3 - 5x^2-4x+20$
+
+a) find an integer root a , i.e. p(a) = 0 (clue < 7)
+
+$p(2) = 2^3 - 5*2^2 - 4*2 + 20 = 8 - 20 - 8 + 20 = 0$, i.e. 2 is a root.
+
+b) write this in terms of a lower degree polynomial q(x)
+
+such as $p(x) = (x − a)q(x)$
+What are the degrees of $p(x)$ and $q(x)$ ?
+Note we are doing this over the real numbers, for zkps we would use a finite field
+
+$p(x) = (x^2 - 3x + 10)\cdot (x-2)$
+
+Degree of $p(x)$ is 3, degree of $q(x)$ is 2.
