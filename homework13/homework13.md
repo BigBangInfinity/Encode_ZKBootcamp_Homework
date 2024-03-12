@@ -62,7 +62,9 @@ $p(x) = x^3 - 5x^2-4x+20$
 
 a) find an integer root a , i.e. p(a) = 0 (clue < 7)
 
-$p(2) = 2^3 - 5*2^2 - 4*2 + 20 = 8 - 20 - 8 + 20 = 0$, i.e. 2 is a root.
+```math
+p(2) = 2^3 - 5\cdot2^2 - 4\cdot2 + 20 = 8 - 20 - 8 + 20 = 0$, i.e. 2 is a root.
+```
 
 b) write this in terms of a lower degree polynomial q(x)
 
