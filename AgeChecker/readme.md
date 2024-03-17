@@ -72,4 +72,4 @@ Also deploy the contracts in the `Solidity` folder: `ProofTest22.sol` and `Proof
 
 `ProofTest37.sol` deployed on Ethereum Sepolia: `0xa3A6af9760FDFcB8e61C16C7D1512Dc9DBfF6732`
 
-Calling the `verifyProof` function returns `True`.
+Calling the `verifyProof` function in `ProofTest22.sol` and `ProofTest37.sol` would call the `verifyTx` function of `verifier.sol` which returns `True`.
