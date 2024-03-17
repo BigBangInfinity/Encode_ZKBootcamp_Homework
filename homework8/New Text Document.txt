@@ -1,0 +1,62 @@
+C:\Users\chine\EncodeBootcamp\ZKBootcamp\Encode_ZKBootcamp_Homework\homework8>zk example sudoku
+✔ Fetch project template
+✔ Extract example
+✔ Initialize Git repo
+✔ NPM install
+✔ Set project name
+✔ Git init commit
+
+Success!
+
+Next steps:
+  cd sudoku1
+  git remote add origin <your-repo-url>
+  git push -u origin main
+
+To run the example:
+  cd sudoku1
+  npm run test
+  npm run build
+  npm run start
+
+
+C:\Users\chine\EncodeBootcamp\ZKBootcamp\Encode_ZKBootcamp_Homework\homework8>cd sudoku
+
+C:\Users\chine\EncodeBootcamp\ZKBootcamp\Encode_ZKBootcamp_Homework\homework8\sudoku>  npm run test
+
+> sudoku@0.1.0 test
+> node --experimental-vm-modules node_modules/jest/bin/jest.js
+
+(node:20968) ExperimentalWarning: VM Modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+ PASS  src/sudoku.test.ts (20.494 s)
+  sudoku
+    √ accepts a correct solution (6838 ms)                                                                                                                                                                                                                                                                                                                                                                                           
+    √ rejects an incorrect solution (2192 ms)                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                     
+Test Suites: 1 passed, 1 total                                                                                                                                                                                                                                                                                                                                                                                                       
+Tests:       2 passed, 2 total                                                                                                                                                                                                                                                                                                                                                                                                       
+Snapshots:   0 total
+Time:        21.691 s, estimated 30 s
+Ran all test suites.
+
+C:\Users\chine\EncodeBootcamp\ZKBootcamp\Encode_ZKBootcamp_Homework\homework8\sudoku>  npm run build
+
+> sudoku@0.1.0 build
+> tsc
+
+
+C:\Users\chine\EncodeBootcamp\ZKBootcamp\Encode_ZKBootcamp_Homework\homework8\sudoku>  npm run start 
+
+> sudoku@0.1.0 start
+> node build/src/run.js
+
+Deploying and initializing Sudoku...
+Is the sudoku solved? false
+Submitting wrong solution...
+There was an error submitting the solution, as expected
+Is the sudoku solved? false
+Submitting solution...
+Is the sudoku solved? true
+
+C:\Users\chine\EncodeBootcamp\ZKBootcamp\Encode_ZKBootcamp_Homework\homework8\sudoku>

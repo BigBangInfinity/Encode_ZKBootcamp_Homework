@@ -1,0 +1,6 @@
+// Example from https://zokrates.github.io/gettingstarted.html
+
+def main(private field age) {
+	assert(age >= 18);
+	return;
+}
