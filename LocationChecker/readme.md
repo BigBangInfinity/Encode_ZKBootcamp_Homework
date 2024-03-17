@@ -66,10 +66,10 @@ Next step is to verify the proofs onchain.
 
 Deploy `verifier.sol` on Ethereum Sepolia: `0xFF1b1A2de56453cA5132d786A1c6cD3B0DFE271d`
 
-Also deploy the contracts in the `Solidity` folder: `ProofTest.sol` and `ProofTest37.sol` with the verifier contract address `0x9792E56E3ca02AB953a6c592E4548c0De36e4f8d` as constructor. The numbers `a`, `b` and `c` are exactly the outputs from the `proof22.json` and `proof37.json` files.
+Also deploy the contracts in the `Solidity` folder: `Prooftest_location1.sol` and `Prooftest_location2.sol` with the verifier contract address `0xFF1b1A2de56453cA5132d786A1c6cD3B0DFE271d` as constructor. The numbers `a`, `b` and `c` are exactly the outputs from the `proof_53_3.json` and `proof_51_1.json` files.
 
-`ProofTest22.sol` deployed on Ethereum Sepolia: `0x5B7C9ab0Da206F1d070E63bFF978C9882d642975`
+`Prooftest_location1.sol` deployed on Ethereum Sepolia: `0xb157DB0aE0299720bda923C21B9b7D3851A4C864`
 
-`ProofTest37.sol` deployed on Ethereum Sepolia: `0xa3A6af9760FDFcB8e61C16C7D1512Dc9DBfF6732`
+`Prooftest_location2.sol` deployed on Ethereum Sepolia: `0xCC7f9b5BdF0C6976A924a404b1503de96fE4bfA2`
 
-Calling the `verifyProof` function in `ProofTest22.sol` and `ProofTest37.sol` would call the `verifyTx` function of `verifier.sol` which returns `True`.
+Calling the `verifyProof` function in `Prooftest_location1.sol` and `Prooftest_location2.sol` would call the `verifyTx` function of `verifier.sol` which returns `True`.
