@@ -1,0 +1,20 @@
+{
+  "inputs": [
+    {
+      "name": "latitude",
+      "public": false,
+      "type": "field"
+    },
+    {
+      "name": "longitude",
+      "public": false,
+      "type": "field"
+    }
+  ],
+  "output": {
+    "type": "tuple",
+    "components": {
+      "elements": []
+    }
+  }
+}

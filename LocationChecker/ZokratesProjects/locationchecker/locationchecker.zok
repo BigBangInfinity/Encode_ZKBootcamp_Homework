@@ -1,0 +1,6 @@
+// Example from https://zokrates.github.io/gettingstarted.html
+
+def main(private field latitude, private field longitude) {
+	assert(latitude <= 55 && latitude >= 50 && longitude <= 5);
+	return;
+}
