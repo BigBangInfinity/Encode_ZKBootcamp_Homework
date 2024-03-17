@@ -40,7 +40,7 @@ run these steps:
 
 ```
 # compile
-zokrates compile -i root.zok
+zokrates compile -i agechecker.zok
 # perform the setup phase
 zokrates setup
 # execute the program
