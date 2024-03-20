@@ -1,0 +1,8 @@
+def main(private field[5] arr)  {
+    field target = 1234;
+    bool mut found = false;
+    for u32 i in 0..5 {
+        found = found || (arr[i] == target);
+    }
+    assert(found);
+}
