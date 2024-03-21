@@ -47,7 +47,7 @@ run these steps:
 
 ```
 # compile
-zokrates compile -i locationchecker.zok
+zokrates compile -i pharmacy.zok
 # perform the setup phase
 zokrates setup
 # execute the program
