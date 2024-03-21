@@ -59,7 +59,7 @@ zokrates generate-proof
 zokrates export-verifier
 ```
 
-In this case, the secret is `22 2312 1234 4444 3333` (representing the whole medical record of medical conditions), the lst number `1234` is the input we want to check in the array (i.e. we want to check if Asthma is contained in the medical record), a verifier contract `verifier.sol` is generated.
+In this case, the secret is `22 2312 1234 4444 3333` (representing the whole medical record of medical conditions), the last number `1234` is the input we want to check in the array (i.e. we want to check if Asthma is contained in the medical record), a verifier contract `verifier.sol` is generated.
 
 If we run
 
