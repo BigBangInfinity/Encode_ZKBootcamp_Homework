@@ -1,5 +1,4 @@
-def main(private field[5] arr)  {
-    field target = 1234;
+def main(private field[5] arr, field target)  {
     bool mut found = false;
     for u32 i in 0..5 {
         found = if (arr[i] == target) {true} else {found};
