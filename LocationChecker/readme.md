@@ -103,6 +103,11 @@ Successful transaction:
 
 https://sepolia.etherscan.io/tx/0x83db31ceb95ef786ed6c900225d80d93ffa70b64d93462f2e3491038eb441385
 
+See Remix
+
+![image](https://github.com/BigBangInfinity/Encode_ZKBootcamp_Homework/assets/37957341/de198442-dc13-4d14-bda8-1816875c18f9)
+
+
 
 Wallet address `0x6a651566A60F08e395068E0C20b29d0e95a5f875` uses proof 
 
@@ -118,3 +123,4 @@ Successful transaction:
 
 https://sepolia.etherscan.io/tx/0xfdd8829964a7a745af6755b80f1d13f3698eddfd2c27845f03e228828b90b0f6
 
+The owner (deployer) can call the `withdraw` function to withdraw the ETH.
