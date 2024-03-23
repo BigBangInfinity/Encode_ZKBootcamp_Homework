@@ -82,3 +82,39 @@ In Remix, enter `"Hello World", [[0x1626db6c8466ddab9de279dbd04ba1fd71f1bff9759d
 
 
 ![image](https://github.com/BigBangInfinity/Encode_ZKBootcamp_Homework/assets/37957341/3f2ce7fd-eb02-40e6-80b8-b7c1389c1edc)
+
+`pharmacy.sol` is the contract for buying medicine, deployed on Sepolia `0x1Ae42B5f73fA1fa88eC3384cd9b7FE44db88d43a`:  https://sepolia.etherscan.io/address/0x1ae42b5f73fa1fa88ec3384cd9b7fe44db88d43a
+
+function `buyMedicineA` is for buying medicine A. It requires a payment of 0.001 ETH (1e15 Wei) and a proof for the medical condition `1234`.
+
+function `buyMedicineB` is for buying medicine B. It requires a payment of 0.002 ETH (2e15 Wei) and a proof for the medical condition `5678`.
+
+Wallet address `0x974BFC05C4B51d4B9d84131A9A870EEcCFB77121` uses proof 
+
+```
+[[0x27045bd3cf96298d09188bf83231adf5b13236e8002d9d2e864513dada6ab47d, 0x25f0bfe8e6401d9a0498ecec861a70ba32b11dac1a807722dfa615fe17887e83],             [[0x0059eceab5e351f4e5b2c0a628eda4edef5ede5cdce2a900edde56da881a0fc8, 0x16dc8f37ff35b12973538dba8915afa617a4a4d040240ef6ee5abf7aaf0dfe32],
+[0x128d78f20a7b8650fd5e38b6b5a0808a517e5f2b7237f467fd0bcc2d38c69860, 0x0e16e2df1a65030bb88fc84e9862b12a0707dd89c7faf73bd928450a07c62c69]],
+[0x19b56485bc972765ebd2114539533508c1efca42943b247c584711c208843ec5, 0x026219f3dc394f6f587cbc1056fe765d7a6bfc64cdadd00e35a9614bab217dcb]]
+```
+
+to call the function `buyMedicineA`, with value = `1000000000000000 Wei`.
+
+Successful transaction:
+
+https://sepolia.etherscan.io/tx/0x83db31ceb95ef786ed6c900225d80d93ffa70b64d93462f2e3491038eb441385
+
+
+Wallet address `0x6a651566A60F08e395068E0C20b29d0e95a5f875` uses proof 
+
+```
+[[0x2280f21d84c13bfb08878d7a57c83fe6cef1e889ddd3c6d2f735b85089c60f6d, 0x0caee1e6b14d8083d0235691a5691ebea83a8ca7192fce03cc7232b6c1a8b46c],             [[0x167f034a3eedb5f7e9d0ba82f28214d28db8c8d48e4ed0ec65fa98dadc9497c3, 0x268d6e09802b324a3362597e4c95b840e92f459c1a8fe5e94b174da1406bbd65],
+[0x02a5950e4a19d50b5a204be8c6cf18a9a9231b9b9ddc8cdd9a55574b27cf1487, 0x2c4a32b08e951b15a2c0c210c8e35f2296aebd298fb62e5a1c2da62dd210502a]],
+[0x0890362478dc373f58e9f1760b9ec9841c6065a88e0141b4a792c753e39d9ede, 0x166d6f96145c8b3fb23742bc4b67b54e345b74391b61b29d2d7bc5381b0da7d6]]
+```
+
+to call the function `buyMedicineB`, with value = `2000000000000000 Wei`.
+
+Successful transaction:
+
+https://sepolia.etherscan.io/tx/0xfdd8829964a7a745af6755b80f1d13f3698eddfd2c27845f03e228828b90b0f6
+
