@@ -88,7 +88,7 @@ The `verifyTx` function takes as input the proof and and array `uint[2]` which i
 
 The point of having these two inputs is that the proof should be only valid for the provided inputs which is the pair wallet address/medical condition. Any other random wallet address should not be able to use the sane proof to purchase the medicine.
 
-`pharmacy.sol` is the contract for buying medicine, deployed on Sepolia `0x1Ae42B5f73fA1fa88eC3384cd9b7FE44db88d43a`:  https://sepolia.etherscan.io/address/0x1ae42b5f73fa1fa88ec3384cd9b7fe44db88d43a
+`pharmacy.sol` is the contract for buying medicine, deployed on Sepolia `0x6a651566A60F08e395068E0C20b29d0e95a5f875`:  https://sepolia.etherscan.io/address/0x6a651566A60F08e395068E0C20b29d0e95a5f875
 
 function `buyMedicineA` is for buying medicine A. It requires a payment of 0.001 ETH (1e15 Wei) and a proof for the medical condition `1234`.
 
