@@ -57,7 +57,7 @@ zokrates compile -i pharmacy.zok
 # perform the setup phase
 zokrates setup
 # execute the program
-zokrates compute-witness -a zokrates compute-witness -a 863752116543225290167644995281522894808962003233 863752116543225290167644995281522894808962003233 22 2312 1234 4444 3333 1234
+zokrates compute-witness -a 863752116543225290167644995281522894808962003233 863752116543225290167644995281522894808962003233 22 2312 1234 4444 3333 1234
 # generate a proof of computation
 zokrates generate-proof
 # export a solidity verifier
